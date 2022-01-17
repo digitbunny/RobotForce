@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+	.hero-section {
+		.hero-text {
+			.heading {
+				.h-1 {
+					font-size: 4rem;
+					font-weight: 200;
+					letter-spacing: 3px;
+				}
+
+				.h-3 {
+					font-size: 5rem;
+				}
+			}
+		}
+	}
+}

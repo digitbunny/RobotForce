@@ -1,0 +1,162 @@
+@import './colors';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	font-size: 1.6rem;
+	color: $white;
+	background-color: $dark-navy;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1300px;
+}
+
+/* HEADER */
+
+.header {
+	overflow: hidden;
+}
+
+.header-img {
+	display: block;
+	background: url(../img/hero.png);
+	background-repeat: no-repeat;
+	background-position-y: -270px;
+	background-position-x: 50%;
+	z-index: -1;
+}
+
+/* NAV SECTION */
+
+.nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1.8em;
+
+		.logo {
+			width: 180px;
+		}
+
+		.nav-items {
+			position: absolute;
+			display: block;
+
+			img{
+				display: none;
+			}
+
+			a{
+			padding-left: 30px;
+			font-family: ocr-a-std, monospace;
+			font-size: 1.4rem;
+			color: $white;
+			text-decoration: none;
+			}
+		}
+
+		.menu-btn {
+			width: 35px;
+			background: none;
+			border: none;
+			cursor: pointer;
+		}
+	}
+}
+
+/* HERO SECTION */
+
+.hero-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.8em;
+	height: 100vh;
+
+	.hero-text {
+		text-align: center;
+
+		.heading {
+			padding-bottom: 1em;
+			font-size: 4rem;
+			text-transform: uppercase;
+
+			.h-1 {
+				font-size: 3.2rem;
+				font-weight: 200;
+				letter-spacing: 4px;
+			}
+
+			.h-3 {
+				font-size: 4.3rem;
+			}
+		}
+
+		.subhead {
+			padding-bottom: 4em;
+			font-size: 1.4rem;
+			line-height: 26px;
+		}
+
+		.hero-btn {
+			padding: 1em 2em;
+			font-size: 1.6rem;
+			background: none;
+			color: white;
+			border: 2px solid white;
+			border-radius: 8px;
+			font-family: ocr-a-std, monospace;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			cursor: pointer;
+		}
+	}
+
+
+	.hero-img {
+		display: none;
+	}
+}
+
+.arrow {
+	display: none;
+}
+
+
+/* .nav-items {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    background: blue;
+    width: 100%;
+    height: 100vh;
+	*/
+
+
+@import './small';
+@import './medium';
+@import './large';
+@import './xlarge';
+@import './xsmall';
