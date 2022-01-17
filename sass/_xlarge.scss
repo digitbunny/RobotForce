@@ -17,10 +17,18 @@
 
 			.nav-items {
                 position: inherit;
-                display: inline-block;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				width: inherit;
+				height: 0;
+				background-color: inherit;
+				
+				
 
                 img{
-                    display: none;
+                    display: block;
+					z-index: 2;
                 }
     
                 a{
@@ -74,7 +82,7 @@
 		.hero-img {
 			display: inline-block;
 			width: 500px;
-			margin-left: 5em;
+			margin-left: 8em;
 		}
 	}
 }
