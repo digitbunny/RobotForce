@@ -16,7 +16,7 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   font-size: 1.6rem;
   color: #fff;
-  background-color: #040f2d;
+  background-color: #17162d;
 }
 
 .wrapper {
@@ -41,7 +41,7 @@ body {
 
 /* NAV SECTION */
 .nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
 }
@@ -86,7 +86,6 @@ body {
 }
 
 .nav .navbar .nav-items img {
-  /* display: none; */
   margin: 1.6em;
   width: 25px;
 }
@@ -167,6 +166,10 @@ body {
 
 .arrow {
   display: none;
+}
+
+.software-info {
+  height: 600px;
 }
 
 /* .nav-items {
