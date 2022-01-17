@@ -82,7 +82,13 @@ body {
   background-color: #1f095f;
   width: 100%;
   height: 100vh;
-  display: none;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.nav .navbar .nav-items ::active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .nav .navbar .nav-items img {

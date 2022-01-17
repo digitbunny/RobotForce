@@ -1,16 +1,16 @@
 const menuBtn = document.querySelector(".menu-btn")
-const navItems = document.querySelector(".nav-items")
+const navItems = document.getElementById(".nav-items")
 const closeBtn = document.querySelector(".close-btn")
 
 
 
 const showMobileNav = () => {
-    navItems.style.display = "flex"
+    navItems.classList.add('active')
     
 }
 
 const closeMobileNav = () => {
-    navItems.style.display = "none"
+    navItems.classList.remove('active')
 }
 
 menuBtn.addEventListener('click', showMobileNav)

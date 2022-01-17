@@ -70,13 +70,18 @@ body {
 			background-color: $navy-blue;
 			width: 100%;
 			height: 100vh;
-			display: none;
+			transform: translateX(100%);
 			
+
+			::active {
+				transform: translateX(0);
+			}
 
 			img {
 				margin: 1.6em;
 				width: 25px;
 			}
+
 
 			a {
 				padding: 2em 0;
@@ -154,11 +159,7 @@ body {
 	display: none;
 }
 
-
-
-
-
-.software-info{
+.software-info {
 	height: 600px;
 }
 
@@ -178,7 +179,6 @@ body {
 @import './large';
 @import './xlarge';
 @import './xsmall';
-
 
 /* .nav-items {
 	position: absolute;
