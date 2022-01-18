@@ -22,7 +22,19 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
+}
+
+.btn {
+  padding: 1em 2em;
+  font-size: 1.6rem;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-family: ocr-a-std, monospace;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -78,7 +90,7 @@ body {
   left: 0;
   top: 0;
   padding: 3em 0;
-  padding-left: 3em;
+  padding-left: 4em;
   background-color: #1f095f;
   width: 100%;
   height: 100vh;
@@ -154,16 +166,7 @@ body {
 }
 
 .hero-section .hero-text .hero-btn {
-  padding: 1em 2em;
-  font-size: 1.6rem;
-  background: none;
-  color: white;
-  border: 2px solid white;
-  border-radius: 8px;
-  font-family: ocr-a-std, monospace;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
 }
 
 .hero-section .hero-img {
@@ -178,16 +181,51 @@ body {
   height: 600px;
 }
 
-/* .nav-items {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    left: 0;
-    top: 0;
-    background: blue;
-    width: 100%;
-    height: 100vh;
-	*/
+/* SECTION PROFIT */
+.profit {
+  padding: 0 1.8em;
+}
+
+.profit .profit-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profit .profit-box .profit-img {
+  width: 300px;
+}
+
+.profit .profit-box .profit-box-text {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.profit .profit-box .profit-box-text .profit-title {
+  font-size: 2.4rem;
+  padding-bottom: 1.4em;
+}
+
+.profit .profit-box .profit-box-text .profit-text {
+  font-size: 1.4rem;
+  line-height: 22px;
+  padding-bottom: 2.6em;
+}
+
+.profit .profit-box .profit-box-text .profit-btn {
+  letter-spacing: 0px;
+}
+
 @media (min-width: 576px) {
   .hero-section .hero-text .heading .h-1 {
     font-size: 4rem;
@@ -215,8 +253,47 @@ body {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    bottom: 80px;
+    bottom: 85px;
     width: 25px;
+  }
+  .profit {
+    padding: 0 1.8em;
+  }
+  .profit .profit-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    padding-top: 4em;
+  }
+  .profit .profit-box .profit-img {
+    width: 400px;
+  }
+  .profit .profit-box .profit-box-text {
+    text-align: left;
+    padding-top: 0;
+    width: 50%;
+  }
+  .profit .profit-box .profit-box-text .profit-title {
+    font-size: 3rem;
+    padding-bottom: 1.4em;
+  }
+  .profit .profit-box .profit-box-text .profit-text {
+    font-size: 1.4rem;
+    line-height: 24px;
+    padding-bottom: 2.6em;
+  }
+  .profit .profit-box .profit-box-text .profit-btn {
+    letter-spacing: 0px;
   }
 }
 
@@ -228,7 +305,7 @@ body {
   }
   /* NAV SECTION */
   .nav .navbar {
-    padding: 1.8em;
+    padding: 1.2em 1.8em;
   }
   .nav .navbar .logo {
     width: 200px;
@@ -288,10 +365,16 @@ body {
     line-height: 30px;
     padding-right: 8em;
   }
+  .hero-section .hero-text .hero-btn {
+    padding: 1em 2.4em;
+  }
   .hero-section .hero-img {
     display: inline-block;
     width: 500px;
     margin-left: 8em;
+  }
+  .profit .profit-box .profit-img {
+    width: 450px;
   }
 }
 
@@ -305,24 +388,4 @@ body {
     font-size: 3.2rem;
   }
 }
-
-/* .nav-items {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	left: 0;
-	top: 0;
-	padding: 3em 0;
-	padding-left: 3em;
-	background: $navy-blue;
-	width: 100%;
-	height: 100vh;
-	display: none;
-
-	img {
-		display: none;
-		margin: 1.6em;
-		width: 25px;
-	} */
 /*# sourceMappingURL=main.css.map */

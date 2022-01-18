@@ -9,35 +9,33 @@
 
 	.nav {
 		.navbar {
-			padding: 1.8em;
+			padding: 1.2em 1.8em;
 
 			.logo {
 				width: 200px;
 			}
 
 			.nav-items {
-                position: inherit;
+				position: inherit;
 				display: flex;
 				flex-direction: row;
 				align-items: center;
 				width: inherit;
 				height: 0;
 				background-color: inherit;
-				
-				
 
-                img{
-                    display: none;
-                }
-    
-                a{
-                padding-left: 30px;
-                font-family: ocr-a-std, monospace;
-                font-size: 1.4rem;
-                color: $white;
-                text-decoration: none;
-                }
-            }
+				img {
+					display: none;
+				}
+
+				a {
+					padding-left: 30px;
+					font-family: ocr-a-std, monospace;
+					font-size: 1.4rem;
+					color: $white;
+					text-decoration: none;
+				}
+			}
 
 			.menu-btn {
 				display: none;
@@ -76,12 +74,23 @@
 				line-height: 30px;
 				padding-right: 8em;
 			}
+			.hero-btn {
+				padding: 1em 2.4em;
+			}
 		}
 
 		.hero-img {
 			display: inline-block;
 			width: 500px;
 			margin-left: 8em;
+		}
+	}
+
+	.profit {
+		.profit-box {
+			.profit-img {
+				width: 450px;
+			}
 		}
 	}
 }

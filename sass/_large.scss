@@ -13,8 +13,44 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 80px;
+        bottom: 85px;
         width: 25px;
     }
+
+
+
+    .profit {
+		padding: 0 1.8em;
+		.profit-box {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: stretch;
+            padding-top: 4em;
+	
+			.profit-img {
+				width: 400px;
+			}
+			.profit-box-text {
+				text-align: left;
+                padding-top: 0;
+				width: 50%;
+	
+				.profit-title {
+					font-size: 3rem;
+					padding-bottom: 1.4em;
+				}
+				.profit-text {
+					font-size: 1.4rem;
+					line-height: 24px;
+					padding-bottom: 2.6em;
+				}
+	
+				.profit-btn {
+					letter-spacing: 0px;
+				}
+			}
+		}
+	}
 
 }
