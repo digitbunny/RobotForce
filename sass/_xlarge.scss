@@ -91,6 +91,27 @@
 			.profit-img {
 				width: 450px;
 			}
+			.profit-box-text {
+				.profit-text {
+					font-size: 1.6rem;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+
+	.advantages {
+		.advantages-box {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+
+			.card {
+				padding: 3em;
+				height: 450px;
+				max-width: 28%;
+			}
 		}
 	}
 }
