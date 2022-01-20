@@ -205,7 +205,7 @@ body {
 
 		.card {
 			position: relative;
-			padding: 3.4em 2em;
+			padding: 1.4em 2em;
 			margin: 1em 0;
 			height: 400px;
 			text-align: left;
@@ -214,7 +214,7 @@ body {
 
 			.card-icon {
 				padding-bottom: 2em;
-				width: 80px;
+				width: 70px;
 			}
 
 			.card-heading {
@@ -226,9 +226,9 @@ body {
 			.card-text {
 				padding-bottom: 1.6em;
 				color: #95a0b1;
-				font-size: 1.5rem;
+				font-size: 1.4rem;
 				font-weight: 300;
-				line-height: 26px;
+				line-height: 23px;
 			}
 
 			.card-link{
@@ -240,8 +240,45 @@ body {
 	}
 }
 
+
+
+/* SECTION SERVICES */
+.services {
+	padding: 4em 1.8em;
+	.services-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.services-img {
+			width: 300px;
+		}
+		.services-box-text {
+			text-align: center;
+			padding-top: 3em;
+
+			.services-title {
+				font-size: 2.4rem;
+				padding-bottom: 1.4em;
+			}
+			.services-text {
+				font-size: 1.4rem;
+				line-height: 22px;
+				padding-bottom: 2.6em;
+			}
+
+			.services-btn {
+				letter-spacing: 0px;
+			}
+		}
+	}
+}
+
 @import './small';
 @import './medium';
 @import './large';
 @import './xlarge';
 @import './xsmall';
+@import './_animate';
+

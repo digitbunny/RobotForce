@@ -92,6 +92,10 @@
 				width: 450px;
 			}
 			.profit-box-text {
+				.profit-title {
+					font-size: 3.4rem;
+					padding-bottom: 1em;
+				}
 				.profit-text {
 					font-size: 1.6rem;
 					font-weight: 300;
@@ -111,6 +115,25 @@
 				padding: 3em;
 				height: 450px;
 				max-width: 28%;
+			}
+		}
+	}
+
+	.services {
+		.services-box {
+			.services-img {
+				width: 450px;
+			}
+			.services-box-text {
+				left: 2.2em;
+				.services-title{
+					font-size: 3.4rem;
+					padding-bottom: 1em;
+				}
+				.services-text {
+					font-size: 1.6rem;
+					font-weight: 300;
+				}
 			}
 		}
 	}

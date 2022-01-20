@@ -1,6 +1,5 @@
 @media (min-width: 998px) {
-
-    .hero-section {
+	.hero-section {
 		.hero-text {
 			.subhead {
 				margin: 0 8em;
@@ -8,34 +7,32 @@
 		}
 	}
 
-    .arrow {
-        display: block;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 85px;
-        width: 25px;
-    }
+	.arrow {
+		display: block;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 85px;
+		width: 25px;
+	}
 
-
-
-    .profit {
+	.profit {
 		padding: 0 1.8em;
 		.profit-box {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: stretch;
-            padding-top: 4em;
-	
+			padding-top: 4em;
+
 			.profit-img {
 				width: 400px;
 			}
 			.profit-box-text {
 				text-align: left;
-                padding-top: 0;
+				padding-top: 0;
 				width: 50%;
-	
+
 				.profit-title {
 					font-size: 3rem;
 					padding-bottom: 1.4em;
@@ -45,7 +42,7 @@
 					line-height: 24px;
 					padding-bottom: 2.6em;
 				}
-	
+
 				.profit-btn {
 					letter-spacing: 0px;
 				}
@@ -53,4 +50,47 @@
 		}
 	}
 
+	.services {
+		padding: 4em 1.8em;
+		padding-top: 10em;
+		.services-box {
+			position: relative;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: stretch;
+
+			.services-img {
+				position: absolute;
+				top: 0;
+				right: 1.8em;
+				transform: translateX(-1.8em);
+				padding-right: auto;
+				width: 450px;
+			}
+			.services-box-text {
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding-left: auto;
+				text-align: left;
+				padding-top: 0;
+				width: 50%;
+
+				.services-title {
+					font-size: 3rem;
+					padding-bottom: 1.4em;
+				}
+				.services-text {
+					font-size: 1.4rem;
+					line-height: 24px;
+					padding-bottom: 2.6em;
+				}
+
+				.services-btn {
+					letter-spacing: 0px;
+				}
+			}
+		}
+	}
 }
