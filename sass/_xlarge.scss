@@ -105,10 +105,11 @@
 	}
 
 	.advantages {
+		padding: 0 1.8em;
 		.advantages-box {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-around;
+			justify-content: space-between;
 			align-items: center;
 
 			.card {
@@ -118,15 +119,13 @@
 			}
 		}
 	}
-
 	.services {
 		.services-box {
-			.services-img {
+			.services-img-desktop {
 				width: 450px;
 			}
 			.services-box-text {
-				left: 2.2em;
-				.services-title{
+				.services-title {
 					font-size: 3.4rem;
 					padding-bottom: 1em;
 				}

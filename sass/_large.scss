@@ -51,28 +51,26 @@
 	}
 
 	.services {
-		padding: 4em 1.8em;
-		padding-top: 10em;
+		padding: 8em 1.8em;
 		.services-box {
-			position: relative;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: stretch;
+			padding-top: 4em;
 
-			.services-img {
-				position: absolute;
-				top: 0;
-				right: 1.8em;
-				transform: translateX(-1.8em);
-				padding-right: auto;
-				width: 450px;
+			.services-box-img-desktop{
+				display: block;
+			}
+
+			.services-box-img{
+				display: none;
+			}
+
+			.services-img-desktop {
+				width: 400px;
 			}
 			.services-box-text {
-				position: absolute;
-				top: 0;
-				left: 0;
-				padding-left: auto;
 				text-align: left;
 				padding-top: 0;
 				width: 50%;

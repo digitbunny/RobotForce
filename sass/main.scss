@@ -135,6 +135,10 @@ body {
 				letter-spacing: 4px;
 			}
 
+			.h-2{
+				color: $blue;
+			}
+
 			.h-3 {
 				font-size: 4.3rem;
 			}
@@ -257,6 +261,10 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+
+		.services-box-img-desktop{
+			display: none;
+		}
 
 		.services-img {
 			width: 300px;
