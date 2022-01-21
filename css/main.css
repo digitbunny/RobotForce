@@ -275,7 +275,7 @@ body {
 }
 
 .advantages .advantages-box .card .card-link {
-  color: #46B5FF;
+  color: #46b5ff;
   font-family: ocr-a-std, monospace;
   text-decoration: none;
 }
@@ -327,6 +327,73 @@ body {
 
 .services .services-box .services-box-text .services-btn {
   letter-spacing: 0px;
+}
+
+.download {
+  padding: 0 1.8em;
+}
+
+.download .download-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8em 2em;
+  margin: 1em 0;
+  text-align: center;
+  background-image: linear-gradient(150deg, #1e4c87, #0e204b, #0e1a37);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.download .download-box .download-graphic img {
+  position: absolute;
+  top: -430px;
+  right: -100%;
+  opacity: 40%;
+}
+
+.download .download-box .download-box-text .download-title {
+  padding-bottom: 1.4em;
+  font-size: 2.4rem;
+}
+
+.download .download-box .download-box-text .download-text {
+  padding-bottom: 2em;
+  color: #bac4d3;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.download .download-box .download-box-text .download-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.download .download-box .download-box-text .download-btns .download-icon img {
+  width: 70px;
+  padding-bottom: 2em;
+}
+
+.download .download-box .download-box-text .download-btns .download-btn {
+  padding: 1em 1.4em;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 576px) {

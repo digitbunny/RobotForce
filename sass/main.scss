@@ -135,7 +135,7 @@ body {
 				letter-spacing: 4px;
 			}
 
-			.h-2{
+			.h-2 {
 				color: $blue;
 			}
 
@@ -160,16 +160,14 @@ body {
 	}
 }
 
-
-	.arrow {
-		display: block;
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-		bottom: 85px;
-		width: 25px;
-	}
-
+.arrow {
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 85px;
+	width: 25px;
+}
 
 .software-info {
 	height: 600px;
@@ -242,16 +240,14 @@ body {
 				line-height: 23px;
 			}
 
-			.card-link{
-				color: #46B5FF;
+			.card-link {
+				color: #46b5ff;
 				font-family: ocr-a-std, monospace;
 				text-decoration: none;
 			}
 		}
 	}
 }
-
-
 
 /* SECTION SERVICES */
 .services {
@@ -262,7 +258,7 @@ body {
 		justify-content: center;
 		align-items: center;
 
-		.services-box-img-desktop{
+		.services-box-img-desktop {
 			display: none;
 		}
 
@@ -290,10 +286,61 @@ body {
 	}
 }
 
+.download {
+	padding: 0 1.8em;
+	.download-box {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 8em 2em;
+		margin: 1em 0;
+		text-align: center;
+		background-image: linear-gradient(150deg, #1e4c87, #0e204b, #0e1a37);
+		border-radius: 14px;
+		overflow: hidden;
+
+		.download-graphic img {
+			position: absolute;
+			top: -430px;
+			right: -100%;
+			opacity: 40%;
+		}
+
+		.download-box-text {
+			.download-title {
+				padding-bottom: 1.4em;
+				font-size: 2.4rem;
+			}
+
+			.download-text {
+				padding-bottom: 2em;
+				color: #bac4d3;
+				font-size: 1.4rem;
+				font-weight: 300;
+				line-height: 23px;
+			}
+			.download-btns {
+				display: flex;
+				flex-direction: column;
+				.download-icon img {
+					width: 70px;
+					padding-bottom: 2em;
+				}
+
+				.download-btn {
+					padding: 1em 1.4em;
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+}
+
 @import './small';
 @import './medium';
 @import './large';
 @import './xlarge';
 @import './xsmall';
 @import './_animate';
-
