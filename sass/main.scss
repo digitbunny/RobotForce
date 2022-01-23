@@ -167,6 +167,7 @@ body {
 	transform: translateX(-50%);
 	bottom: 85px;
 	width: 25px;
+	cursor: pointer;
 }
 
 .software-info {
@@ -305,7 +306,8 @@ body {
 			position: absolute;
 			top: -430px;
 			right: -100%;
-			opacity: 40%;
+			opacity: 60%;
+			z-index: 0;
 		}
 
 		.download-box-text {

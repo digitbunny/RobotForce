@@ -6,4 +6,44 @@
 			}
 		}
 	}
+
+	.advantages {
+		.advantages-box {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+
+			.card {
+				width: 45%;
+				margin: 1em;
+				max-width: 320px;
+
+				.card-icon {
+					padding-bottom: 2em;
+					width: 70px;
+				}
+
+				.card-heading {
+					padding-bottom: 0.8em;
+					font-size: 2.2rem;
+					font-weight: 500;
+				}
+
+				.card-text {
+					padding-bottom: 1.6em;
+					color: #95a0b1;
+					font-size: 1.4rem;
+					font-weight: 300;
+					line-height: 23px;
+				}
+
+				.card-link {
+					color: #46b5ff;
+					font-family: ocr-a-std, monospace;
+					text-decoration: none;
+				}
+			}
+		}
+	}
 }

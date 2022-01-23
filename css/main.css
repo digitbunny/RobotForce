@@ -185,6 +185,7 @@ body {
           transform: translateX(-50%);
   bottom: 85px;
   width: 25px;
+  cursor: pointer;
 }
 
 .software-info {
@@ -360,7 +361,8 @@ body {
   position: absolute;
   top: -430px;
   right: -100%;
-  opacity: 40%;
+  opacity: 60%;
+  z-index: 0;
 }
 
 .download .download-box .download-box-text .download-title {
@@ -410,6 +412,45 @@ body {
 @media (min-width: 768px) {
   .hero-section .hero-text .subhead {
     margin: 0 6em;
+  }
+  .advantages .advantages-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .advantages .advantages-box .card {
+    width: 45%;
+    margin: 1em;
+    max-width: 320px;
+  }
+  .advantages .advantages-box .card .card-icon {
+    padding-bottom: 2em;
+    width: 70px;
+  }
+  .advantages .advantages-box .card .card-heading {
+    padding-bottom: 0.8em;
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  .advantages .advantages-box .card .card-text {
+    padding-bottom: 1.6em;
+    color: #95a0b1;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 23px;
+  }
+  .advantages .advantages-box .card .card-link {
+    color: #46b5ff;
+    font-family: ocr-a-std, monospace;
+    text-decoration: none;
   }
 }
 
